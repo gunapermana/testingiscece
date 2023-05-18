@@ -1067,3 +1067,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+#footer img {
+  max-width: 150px;
+}
