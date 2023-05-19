@@ -799,14 +799,14 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.events .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
 
-.services .icon-box .icon {
+.events .icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -817,144 +817,80 @@ section {
   position: relative;
 }
 
-.services .icon-box .icon i {
+.events .icon-box .icon i {
   font-size: 36px;
   transition: 0.5s;
   position: relative;
 }
 
-.services .icon-box .icon svg {
+.events .icon-box .icon svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.services .icon-box .icon svg path {
+.events .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
 
-.services .icon-box h4 {
+.events .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.services .icon-box h4 a {
+.events .icon-box h4 a {
   color: #2c4964;
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box p {
+.events .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.events .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
-.services .iconbox-blue i {
+.events .iconbox-blue i {
   color: #47aeff;
 }
 
-.services .iconbox-blue:hover .icon i {
+.events .iconbox-blue:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-blue:hover .icon path {
+.events .iconbox-blue:hover .icon path {
   fill: #47aeff;
 }
 
-.services .iconbox-orange i {
+.events .iconbox-orange i {
   color: #ffa76e;
 }
 
-.services .iconbox-orange:hover .icon i {
+.events .iconbox-orange:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-orange:hover .icon path {
+.events .iconbox-orange:hover .icon path {
   fill: #ffa76e;
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Events
 --------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  border-radius: 5px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-
-.pricing h3 {
-  font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
-  font-size: 16px;
-  font-weight: 600;
-  color: #2c4964;
-  background: #f8f8f8;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #5846f9;
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #5846f9;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.services .btn-wrap {
+.events .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 2px 15px;
   /* background: #f8f8f8; */
   text-align: center;
 }
 
-.services .btn-buy {
+.events .btn-buy {
   background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
   display: inline-block;
   padding: 10px 35px;
@@ -968,28 +904,9 @@ section {
   transition: 0.3s;
 }
 
-.services .btn-buy:hover {
+.events .btn-buy:hover {
   background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
-
-.pricing .featured h3 {
-  color: #fff;
-  background: #5846f9;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #5846f9;
-  color: #fff;
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1229,4 +1146,106 @@ section {
     rgba(240, 147, 251, 1),
     rgba(245, 87, 108, 1)
   );
+}
+
+/*--------------------------------------------------------------
+# Paper
+--------------------------------------------------------------*/
+.paper .box {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.paper .b1 {
+  height: 620px;
+}
+
+.paper .b2 {
+  height: 495px;
+}
+
+.paper .b3 {
+  height: 540px;
+}
+
+.paper h3 {
+  font-weight: 400;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff3f3;
+  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+}
+
+.paper ul {
+  padding: 0;
+  list-style: none;
+  color: #444444;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.paper ul li {
+  padding-bottom: 16px;
+}
+
+.paper ul i {
+  /* color: #5846f9; */
+  font-size: 18px;
+  padding-right: 6px;
+}
+
+.paper ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.paper .featured h3 {
+  color: #fff;
+  background: #5846f9;
+}
+
+.paper .advanced {
+  width: 200px;
+  position: absolute;
+  top: 18px;
+  right: -68px;
+  transform: rotate(45deg);
+  z-index: 1;
+  font-size: 14px;
+  padding: 1px 0 3px 0;
+  background: #5846f9;
+  color: #fff;
+}
+
+.paper .btn-wrap {
+  margin: 20px -20px -20px -20px;
+  padding: 2px 15px;
+  /* background: #f8f8f8; */
+  text-align: center;
+}
+
+.paper .btn-buy {
+  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  display: inline-block;
+  padding: 10px 35px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.paper .btn-buy:hover {
+  background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
