@@ -911,19 +911,17 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
-  font-size: 14px;
-  background: linear-gradient(
+  /* background: linear-gradient(
       45deg,
       rgba(246, 107, 14, 0.9) 0%,
       rgba(161, 0, 198, 0.9) 100%
     ),
     url("../img/hero-bg.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 15px 0;
   position: relative;
 }
 
@@ -933,25 +931,25 @@ section {
 
 #footer .footer-top h3 {
   font-size: 28px;
-  margin: 0 0 30px 0;
+  margin: 0 0 15px 0;
+  color: #113161;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 800;
   text-transform: uppercase;
+  text-align: center;
 }
 
-#footer .footer-top .footer-contact p {
+#footer .footer-bot {
+  background: linear-gradient(
+      45deg,
+      rgba(246, 107, 14, 0.9) 0%,
+      rgba(161, 0, 198, 0.9) 100%
+    ),
+    url("../img/hero-bg.jpg") center center no-repeat;
+  background-size: cover;
+  color: #ffeeee;
   font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Poppins", sans-serif;
-}
-
-#footer .footer-top h4 {
-  font-size: 16px;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 12px;
 }
 
 #footer .copyright-wrap {
