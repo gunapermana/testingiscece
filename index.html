@@ -61,9 +61,9 @@
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-            <!-- <li>
-              <a class="getstarted scrollto" href="#about">Get Started</a>
-            </li> -->
+            <li>
+              <a class="getstarted scrollto" href="#about">Register Now</a>
+            </li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
@@ -85,7 +85,7 @@
               Net Zero Emission.
             </h2>
             <div>
-              <a href="#" class="btn-get-started scrollto">Register Now!</a>
+              <a href="#about" class="btn-get-started scrollto">Read More</a>
             </div>
           </div>
           <div
@@ -145,9 +145,9 @@
                 eu fugiat nulla pariatur.
               </li>
             </ul>
-            <a href="#" class="read-more"
+            <!-- <a href="#" class="read-more"
               >Read More<i class="bi bi-long-arrow-right"></i
-            ></a>
+            ></a> -->
           </div>
         </div>
       </div>
@@ -684,7 +684,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-lg-6 maps">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.8701570864905!2d115.16981717586856!3d-8.798267389952013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244bc39fb3da7%3A0x6cae8cb2a990cae5!2sUniversitas%20Udayana!5e0!3m2!1sid!2sid!4v1684211998410!5m2!1sid!2sid"
@@ -695,69 +695,7 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form
-              action="forms/contact.php"
-              method="post"
-              role="form"
-              class="php-email-form"
-            >
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input
-                    type="text"
-                    name="name"
-                    class="form-control"
-                    id="name"
-                    placeholder="Your Name"
-                    required
-                  />
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    id="email"
-                    placeholder="Your Email"
-                    required
-                  />
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="subject"
-                  id="subject"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div class="form-group mt-3">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  rows="5"
-                  placeholder="Message"
-                  required
-                ></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your message has been sent. Thank you!
-                </div>
-              </div>
-              <div class="text-center">
-                <button type="submit">Send Message</button>
-              </div>
-            </form>
-          </div>
-        </div>
+          </div> -->
       </div>
     </section>
     <!-- End Contact Section -->
@@ -766,8 +704,12 @@
     <footer id="footer">
       <div class="footer-top">
         <div class="container">
-          <h3>Media Partner</h3>
-          <div class="row d-flex justify-content-between">
+          <div class="section-title">
+            <h2>Media Partner</h2>
+          </div>
+          <div
+            class="row d-flex justify-content-between align-items-center medpartlogo"
+          >
             <div class="col-lg-2 pt-3 pb-3 d-flex justify-content-center">
               <img
                 src="assets/img/mediapartner/IEEE ITB SB LOGO - Blue.png"
@@ -775,20 +717,20 @@
               />
             </div>
 
-            <div class="col-lg-2 pt-3 pb-3 d-flex justify-content-center">
+            <div class="col-lg-2 pt-2 pb-2 d-flex justify-content-center">
               <img
                 src="assets/img/mediapartner/IEEE_ITS-01.png"
                 alt="IEEESB ITS"
               />
             </div>
 
-            <div class="col-lg-2 pt-3 pb-3 d-flex justify-content-center">
+            <div class="col-lg-2 pt-2 pb-2 d-flex justify-content-center">
               <img src="assets/img/mediapartner/IEEE UB.jpeg" alt="IEEESB UB" />
             </div>
-            <div class="col-lg-2 pt-3 pb-3 d-flex justify-content-center">
+            <div class="col-lg-2 pt-2 pb-2 d-flex justify-content-center">
               <img src="assets/img/mediapartner/kotakode.jpeg" alt="kotakode" />
             </div>
-            <div class="col-lg-2 pt-3 pb-3 d-flex justify-content-center">
+            <div class="col-lg-2 pt-2 pb-2 d-flex justify-content-center">
               <img
                 src="assets/img/mediapartner/sejuta cita.jpeg"
                 alt="sejuta cita"
@@ -800,26 +742,17 @@
 
       <div class="footer-bot">
         <div class="container">
-          <div class="copyright-wrap d-md-flex py-4">
-            <div class="me-md-auto text-center text-md-start">
-              <div class="copyright">
-                &copy; Copyright <strong><span>IEESB UNUD</span></strong
-                >. All Rights Reserved
+          <div class="copyright-wrap d-md-flex py-4 justify-content-center">
+            <div>
+              <div class="d-flex justify-content-center">
+                <div class="copyright">
+                  &copy; Copyright <strong><span>IEESB UNUD</span></strong
+                  >. All Rights Reserved
+                </div>
               </div>
               <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
                 Made With ❤ by Web Development Team IEEESB UNUD
               </div>
-            </div>
-            <div class="social-links text-center text-md-right pt-3 pt-md-0">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
         </div>
