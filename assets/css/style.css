@@ -139,10 +139,6 @@ h6 {
   color: #fff;
 }
 
-/* #header .logo img {
-  max-height: 50px;
-} */
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -647,38 +643,6 @@ section {
   top: 12px;
 }
 
-/* .about img {
-  width: 70%;
-} */
-
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  background: linear-gradient(
-      90deg,
-      rgba(246, 107, 14, 0.9) 0%,
-      rgba(174, 24, 207, 0.9) 100%
-    ),
-    url("../img/counts-bg.png") center center no-repeat;
-  padding: 80px 0 60px 0;
-}
-
-.counts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #fff;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-}
-
-.counts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-size: 15px;
-  color: rgba(255, 255, 255, 0.8);
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -711,86 +675,6 @@ section {
   margin-bottom: 0;
 }
 
-.contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
-  background: #fff;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 5px;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #5846f9;
-}
-
-.contact .php-email-form input {
-  padding: 10px 15px;
-}
-
-.contact .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #5846f9;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #7b27d8;
-}
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -802,7 +686,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Events
 --------------------------------------------------------------*/
 .events .icon-box {
   text-align: center;
@@ -885,9 +769,6 @@ section {
   fill: #ffa76e;
 }
 
-/*--------------------------------------------------------------
-# Events
---------------------------------------------------------------*/
 .events .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 2px 15px;
@@ -912,19 +793,10 @@ section {
 .events .btn-buy:hover {
   background: linear-gradient(180deg, #5846f9 0%, #7b27d8 100%);
 }
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  /* background: linear-gradient(
-      45deg,
-      rgba(246, 107, 14, 0.9) 0%,
-      rgba(161, 0, 198, 0.9) 100%
-    ),
-    url("../img/hero-bg.jpg") center center no-repeat;
-  background-size: cover; */
-}
-
 #footer .footer-top {
   padding: 30px 0 15px 0;
   position: relative;
@@ -963,27 +835,6 @@ section {
 
 #footer .credits a {
   color: #fff;
-}
-
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
-#footer .social-links a:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
-  text-decoration: none;
 }
 
 #footer img {
